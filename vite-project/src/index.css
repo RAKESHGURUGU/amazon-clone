@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  /* background-color: black; */
   background-image: url("./assets/background.jpg");
+  /* background-color: rgb(213, 198, 178); */
   background-size: cover;
   background-attachment: fixed;
   background-position: center 120px;

@@ -1,13 +1,13 @@
-#header {
-    height: 80px;
-    width: 100%;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    position: fixed;
-}
+    #header {
+        height: 80px;
+        width: 100%;
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white;
+        /* position: fixed; */
+    }
 
 #location {
     display: flex;
@@ -42,7 +42,7 @@ h3 {
     font-weight: bolder;
 }
 
-#cat::selection{
+#cat::selection {
     border: 1px solid orange;
 }
 
@@ -72,7 +72,7 @@ h3 {
 }
 
 #search-bar:hover {
-    border:3px solid orange;
+    border: 3px solid orange;
     border-radius: 11px;
 }
 
