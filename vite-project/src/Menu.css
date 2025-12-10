@@ -1,0 +1,14 @@
+#menu-bar {
+    background-color: #2d3842;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    position: relative;
+    top: 80px;
+}
+
+#menu-bar p{
+    cursor: pointer;
+}

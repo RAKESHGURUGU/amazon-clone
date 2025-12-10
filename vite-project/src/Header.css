@@ -1,17 +1,19 @@
 #header {
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
+    position: fixed;
 }
 
 #location {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #location div p,
@@ -19,6 +21,61 @@ h4 {
     margin: 0;
 }
 
-#returns-orders p,h3 {
+#returns-orders p,
+h3 {
     margin: 0;
+}
+
+#cat {
+    padding: 5px 0px;
+    border: none;
+    font-weight: bolder;
+    background-color: rgb(236, 236, 236);
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#cat option {
+    font-weight: bolder;
+}
+
+#cat::selection{
+    border: 1px solid orange;
+}
+
+#search {
+    width: 500px;
+    height: 35px;
+    border: none;
+    padding: 5px 10px;
+}
+
+#search:placeholder-shown {
+    font-weight: bolder;
+}
+
+#search-icon {
+    width: 40px;
+    height: 35px;
+    background-color: orange;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 5px;
+}
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-bar:hover {
+    border:3px solid orange;
+    border-radius: 11px;
+}
+
+#returns-orders {
+    cursor: pointer;
 }
